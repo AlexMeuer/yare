@@ -48,6 +48,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tsconfig/recommended@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "@tsconfig/recommended@npm:1.0.2"
+  checksum: 8dab26157fc9748ff2d090b95f4dbe2aeb592dbdcf90f373f712da5ac54ff24f66193e7ee68fdc45880e7f767cfeb339ef3e9970ca59608ef93225db047f0d16
+  languageName: node
+  linkType: hard
+
 "@types/estree@npm:*":
   version: 0.0.51
   resolution: "@types/estree@npm:0.0.51"
@@ -59,6 +66,13 @@ __metadata:
   version: 0.0.39
   resolution: "@types/estree@npm:0.0.39"
   checksum: 412fb5b9868f2c418126451821833414189b75cc6bf84361156feed733e3d92ec220b9d74a89e52722e03d5e241b2932732711b7497374a404fad49087adc248
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^20.5.7":
+  version: 20.5.7
+  resolution: "@types/node@npm:20.5.7"
+  checksum: fc284c8e16ddc04569730d58e87eae349eb1c3dd9020cb79a1862d9d9add6f04e7367a236f3252db8db2572f90278e250f4cd43d27d264972b54394eaba1ed76
   languageName: node
   linkType: hard
 
@@ -849,6 +863,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "yare-typescript-template@workspace:."
   dependencies:
+    "@tsconfig/recommended": ^1.0.2
+    "@types/node": ^20.5.7
     colors: ^1.4.0
     esbuild: ^0.12.15
     node-watch: ^0.7.1
