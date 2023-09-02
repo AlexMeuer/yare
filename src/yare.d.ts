@@ -71,9 +71,14 @@ declare class Spirit extends Entity {
   move(destination: Vector): void;
   energize(target: Entity | string): void;
   merge(target: Spirit): void;
-  divide(): void;
+  // divide(): void;
   jump(target: Vector): void;
-  explode(): void;
+  // explode(): void;
+}
+
+declare class SquareSpirit extends Spirit {
+  lock(): void;
+  unlock(): void;
 }
 
 declare class Graphics {
